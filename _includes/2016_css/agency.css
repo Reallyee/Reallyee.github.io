@@ -243,11 +243,11 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #2bb7b3;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Times New Roman","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -326,7 +326,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #2BB7B3;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -357,13 +357,13 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-size: 40px;
     font-weight: 700;
@@ -380,13 +380,13 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
+        /* font-style: italic; */
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
@@ -811,7 +811,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #00283c;
+    background-color: #B0E0E6;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
